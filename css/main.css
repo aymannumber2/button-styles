@@ -11,3 +11,8 @@ div {
   padding: .5rem;
   text-align: center;
 }
+
+a {
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+}

@@ -29,7 +29,7 @@ a {
 
 .btn {
   background-color: #333;
-  display: block;
+  display: inline-block;
 }
 
 .btn-subtle {

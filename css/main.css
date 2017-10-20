@@ -13,6 +13,10 @@ div {
   margin: 1em;
 }
 
+.new {
+  margin-bottom: 2em;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -23,10 +27,48 @@ a {
   border-width: 3px;
 }
 
-.primary-btn-small {
-  background-color: #000;
+.btn {
+  background-color: #333;
 }
 
-.primary-btn-big {
+.btn-subtle {
+  background-color: #ccc;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000;
+}
+
+.btn-warning {
+  background-color: #f33;
+}
+
+.btn-small {
+  padding: .5em;
+}
+
+.btn-big {
+  padding: 1em;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #666;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+}
+.btn-warning:hover {
+  background-color: #933;
+}
+.btn:hover {
   background-color: #000;
 }

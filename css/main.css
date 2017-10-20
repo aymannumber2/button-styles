@@ -29,6 +29,7 @@ a {
 
 .btn {
   background-color: #333;
+  display: block;
 }
 
 .btn-subtle {
@@ -49,10 +50,12 @@ a {
 
 .btn-small {
   padding: .5em;
+  font-size: .875rem;
 }
 
 .btn-big {
   padding: 1em;
+  font-size: 1.125rem;
 }
 
 .btn-ghost:hover {
@@ -66,9 +69,11 @@ a {
 .btn-subtle:hover {
   background-color: #666;
 }
+
 .btn-warning:hover {
   background-color: #933;
 }
+
 .btn:hover {
   background-color: #000;
 }
